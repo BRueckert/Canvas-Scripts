@@ -2,7 +2,7 @@
 #Script to add indicated user as an observer of another user
 
 import requests
-from ConfigPro import base_url, api_url, account_id, token
+from ConfigPro import api_url, token
 
 #User ID for Observer
 userID = ''

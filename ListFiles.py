@@ -3,17 +3,9 @@
 #and print the total number of files
 
 import requests
+from ConfigPro import api_url, token
 
-#Production instance token
-token = ''
-
-#target course id
-courseID = ''
-
-#Your institution's apiURL
-apiURL = ''
-
-r = requests.get(apiURL + 'courses/' + courseID + '/files/', 
+r = requests.get(api_url + 'courses/' + courseID + '/files/', 
 	headers = {'Authorization': 'Bearer ' + '%s' % token})
 	
 data = r.json()

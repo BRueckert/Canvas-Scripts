@@ -9,5 +9,5 @@ api_url = base_url + '/api/v1/'
 #Canvas Account ID
 account_id = ''
 
-#My Auth Token - no expiration at the moment
+#My Auth Token
 token = ''

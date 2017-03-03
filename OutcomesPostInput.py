@@ -2,7 +2,7 @@
 #Created by Brian Rueckert, October 2015
 
 import requests, csv, json
-from ConfigPro import base_url, api_url, token #Be sure to check token validity and import from correct config file.
+from ConfigPro import base_url, api_url, token
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
 
